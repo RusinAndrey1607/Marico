@@ -1,0 +1,60 @@
+.experts {
+    padding-bottom: 188px;
+    &__inner {
+        padding: 0 47px;
+    }
+    &__title {
+        text-align: center;
+        margin-bottom: 52px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .experts {
+        padding-bottom: 120px;
+        &__inner {
+            padding: 0;
+        }
+        &__title {
+            margin-bottom: 40px;
+        }
+        &__img {
+            object-fit: cover;
+            height: 250px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .experts {
+        padding-bottom: 70px;
+        &__img {
+            height: 230px;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .experts {
+        &__img {
+            height: 150px;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .experts__title {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 375px) {
+    .experts {
+        &__img {
+            height: 120px;
+            object-fit: cover;
+        }
+    }
+}

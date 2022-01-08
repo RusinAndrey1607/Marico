@@ -1,0 +1,213 @@
+.step-two {
+    padding-bottom: 189px;
+    &__info {
+        max-width: 886px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 176px;
+    }
+    &__inner {
+        // max-width: 1731px;
+        padding: 0 95px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 49px;
+    }
+    &__link,
+    &__collect {
+        max-height: 666px;
+        max-width: 854px;
+        width: 100%;
+        background: $bg-black;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+    &__link {
+        margin-right: 23px;
+        padding-left: 45px;
+        padding-top: 34px;
+        overflow: hidden;
+    }
+    &__collect {
+        padding-top: 34px;
+        padding-left: 30px;
+    }
+    &__mobile {
+        margin: 0;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    &__text {
+        color: $green;
+        font-size: 30px;
+        line-height: 150%;
+    }
+    &__link-title {
+        margin-top: 23px;
+        max-width: 623px;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 150%;
+        color: $grey;
+        margin-bottom: 14px;
+        &--white {
+            color: $white;
+        }
+    }
+    &__collect-title {
+        margin-top: 96px;
+        max-width: 415px;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 115%;
+        &--white {
+            color: $white;
+        }
+    }
+    &__btn {
+        padding: 22px 0;
+        width: 283px;
+        height: 74px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+@media (max-width: 1620px) {
+    .step-two {
+        &__inner {
+            padding: 0 50px;
+        }
+        &__link-title,
+        &__collect-title {
+            font-size: 70px;
+        }
+    }
+}
+
+@media (max-width: 1350px) {
+    .step-two {
+        &__inner {
+            padding: 0 50px;
+        }
+        &__link-title,
+        &__collect-title {
+            font-size: 50px;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .step-two {
+        &__text {
+            font-size: 24px;
+        }
+        &__info {
+            margin-bottom: 140px;
+        }
+        &__link-title,
+        &__collect-title {
+            font-size: 45px;
+        }
+        &__collect-title {
+            margin-top: 60px;
+        }
+        &__btn {
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .step-two {
+        &__link,
+        &__collect {
+            padding-left: 15px;
+        }
+        &__link-title,
+        &__collect-title {
+            font-size: 36px;
+        }
+        &__collect-title {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .step-two__info {
+        margin-bottom: 80px;
+    }
+    .step-two {
+        padding-bottom: 140px;
+    }
+}
+
+@media (max-width: 690px) {
+    .step-two {
+        &__text {
+            font-size: 20px;
+        }
+        &__link,
+        &__collect {
+            padding-left: 15px;
+        }
+        &__collect-title {
+            margin-top: 40px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .step-two {
+        &__inner {
+            flex-direction: column;
+            padding: 0;
+        }
+        &__link {
+            margin-bottom: 40px;
+            margin-right: 0;
+        }
+        &__collect {
+            padding-bottom: 40px;
+        }
+        &__info-title {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .step-two__info {
+        margin-bottom: 50px;
+    }
+    .step-two {
+        padding-bottom: 120px;
+    }
+}
+
+@media (max-width: 520px) {
+    .step-two {
+        &__btn {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .step-two {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 375px) {
+    .step-two {
+        &__link-title,
+        &__collect-title {
+            font-size: 26px;
+        }
+        &__collect-title {
+            margin-top: 30px;
+        }
+    }
+}
