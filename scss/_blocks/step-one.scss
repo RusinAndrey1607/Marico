@@ -58,6 +58,9 @@
         &--one {
             margin-right: 25px;
         }
+        &--two {
+            background-color: $button-black;
+        }
     }
 }
 
@@ -186,5 +189,11 @@
             margin-left: -20px;
             margin-bottom: 50px;
         }
+    }
+}
+
+@media( max-width:375px) {
+    .step-one__info-btn {
+        width: 100%;
     }
 }

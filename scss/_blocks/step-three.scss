@@ -27,11 +27,11 @@
         margin-bottom: 80px;
     }
     &__content {
+        max-width: 740px;
         width: 100%;
         margin-right: 30px;
     }
     &__title {
-        // text-align: left;
         max-width: 697px;
         margin-bottom: 27px;
     }
@@ -49,6 +49,9 @@
         padding-bottom: 17px;
         &--one {
             margin-right: 24px;
+        }
+        &--two {
+            background-color: $button-black;
         }
     }
     &__img-wrapper {

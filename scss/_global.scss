@@ -110,13 +110,14 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
-    transition: color, background-color, border 0.4s;
+    transition: all, 0.4s;
     border-radius: 12px;
     text-align: center;
     &--one {
         color: $white;
         background-color: $blue;
         &:hover {
+            transform: scale(1.05);
             background: rgba($blue, 0.25);
         }
     }
@@ -124,6 +125,7 @@ body {
         color: $default;
         border: 1px solid $default;
         &:hover {
+            transform: scale(1.05);
             border: 1px solid $blue;
             color: $white;
         }
